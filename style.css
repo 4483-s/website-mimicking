@@ -85,12 +85,12 @@ h1 {
   width: 500px;
   display: flex;
   height: 500px;
-  gap: 1em;
+  gap: 2em;
   justify-content: center;
 }
 .square {
-  width: 6em;
-  height: 6em;
+  width: 10em;
+  height: 10em;
   border: 0.4em solid #3882f6;
 }
 #third {
