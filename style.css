@@ -4,6 +4,10 @@ body {
 body * {
   box-sizing: border-box;
 }
+body > * > * {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 .first {
   background-color: #1f2937;
   font-family: Roboto;
@@ -12,6 +16,18 @@ body * {
 #bar {
   display: flex;
   align-items: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:active {
+  color: yellow;
+  background-color: blue;
+}
+a:visited {
+  border-bottom: none;
+  color: grey;
 }
 #logo {
   width: 5em;
@@ -25,9 +41,7 @@ h1 {
 #header-text {
   color: #f9faf8;
   display: flex;
-  padding-left: 10vw;
-  padding-right: 10rem;
-  margin-top: 10rem;
+  flex-wrap: wrap;
 }
 #imgdiv {
   display: flex;
