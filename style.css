@@ -41,7 +41,7 @@ h1 {
   font-weight: 900;
   margin: 0;
 }
-#header-text {
+.hero {
   display: flex;
 }
 #imgdiv {
@@ -52,7 +52,7 @@ h1 {
 #imgdiv > img {
   width: 10em;
 }
-#header-text > div {
+.hero > div {
   flex: 1;
 }
 #textdiv button {
@@ -64,7 +64,7 @@ h1 {
   font-weight: 900;
   background-color: #3882f6;
 }
-#header-text button {
+.hero button {
   border: none;
 }
 #textdiv p {
